@@ -3,6 +3,11 @@
 A little exercise to get started with the specification phase of the software development lifecycle. In this exercise, your team specifies a set of improvements and new features for [The Slide Machine](https://theslidemachine.com) — see the [instructions](instructions.md) for detail, and the [background](background.md) for an introduction to the software product you are tasked with extending.
 
 ## Team members
+- [Christina Lin](https://github.com/christinalin06)
+- [Daniel Zhang](https://github.com/danielzhang04/)
+- [Jason Wang](https://github.com/TirpitzS128)
+- [Rishi Ajoykumar](https://github.com/ajoykumarrishi)
+- [Matthew Chen](https://github.com/23matthewc)
 
 See instructions. Delete this line and replace with a list of the names of your team members, including links to each one's GitHub profile.
 
