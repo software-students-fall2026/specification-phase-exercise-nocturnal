@@ -103,7 +103,45 @@ During a live lecture, The Slide Machine will allow instructors to Mark for Revi
 
 ## Wireframes
 
-See instructions. Delete this line and place your wireframe diagrams here, covering every new screen and every existing screen your proposal changes, for every type of user.
+### Instructor View
+
+#### 1. Before selecting Mark for Review
+![Before selecting Mark for Review](<./wireframes/instructorView/Before selecting Mark for Review.png>)
+
+#### 2. After selecting Mark for Review
+![After selecting Mark for Review](<./wireframes/instructorView/After selecting Mark for Review.png>)
+
+#### 3. Dismiss Slide for Marked for Review
+![Dismiss Slide for Marked for Review](<./wireframes/instructorView/Dismiss Slide for Marked for Review.png>)
+
+#### 4. Review Queue
+![Review Queue](<./wireframes/instructorView/Review Queue.png>)
+
+#### 5. Edit Note to send to Refine
+![Edit Note to send to Refine](<./wireframes/instructorView/Edit Note to send to Refine.png>)
+
+#### 6. Send to Refine Processing
+![Send to Refine Processing](<./wireframes/instructorView/Send to Refine Processing.png>)
+
+#### 7. Review Proposal
+![Review Proposal](<./wireframes/instructorView/Review Proposal.png>)
+
+### Student View
+
+#### 1. Student View of Slide
+![Student View of Slide](<./wireframes/studentView/Student View of Slide.png>)
+
+#### 2. Student View of Marked for Review slide
+![Student View of Marked for Review slide](<./wireframes/studentView/Student View of Marked for Review slide.png>)
+
+#### 3. Student View of Corrected Slide
+![Student View of Corrected Slide](<./wireframes/studentView/Student View of Corrected Slide.png>)
+
+#### 4. Version History Dropdown
+![Version History Dropdown](<./wireframes/studentView/Version History Dropdown.png>)
+
+#### 5. Version History Selection
+![Version History Selection](<./wireframes/studentView/Version History Selection.png>)
 
 ## Clickable Prototype
 
