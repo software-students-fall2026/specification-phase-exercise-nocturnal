@@ -33,11 +33,135 @@ A little exercise to get started with the specification phase of the software de
 
 ## Prior Art & Originality
 
-See instructions. Delete this line and replace with a short statement of what your team checked (the project's Future Work and Open Questions, its roadmap, and its open issues and pull requests) and which parts of your proposal are original — new work not already specified, scheduled, or proposed by someone else.
+We inspected “The Slide Machine” GitHub repository beginning with SPEC.md. Our focus was on goals and non-goals, live lecture capture, voice commands, slide generation, post-lecture refinement, editing, future work, and open questions. We also investigated ROADMAP.md, DECISIONS.md, and ACTIONS.md. Finally, we glanced over deck.ts, slide.ts, voice-commands.ts, and commands.ts as these code files are relevant to our proposal. 
+
+Based on this review, our proposed "Mark for Review" workflow is not currently implemented, specified as future work, or recorded as a previously dismissed feature. Our plan extends Slide Machine's existing Refine process and voice-command system. Correction indicators in lecture, recording feedback without immediately changing the projected/current slide, carrying the feedback into Refine, and the associated "Live Correction Queue", review, and correction-history views would be new to the current Slide Machine repository.
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+All stakeholder names below are pseudonyms. Original interview notes are linked for each stakeholder.
+
+### Instructors
+
+#### Brooke — Instructor
+[Original interview notes](./interviews/instructor/interviewOne.md)
+
+Brooke is a graduate student and instructor of *Intensive Intermediate Italian*. She was interested in document seeding, preparation of seeded content before lecture, exit ticket quizzes throughout class, and whether live slide generation could represent intricate grammar concepts and exceptions.
+
+**Goals / Needs**
+- Seed projects with documents and prepare content before a lecture.
+- Present intricate grammar concepts and exceptions clearly.
+- Use tables and structured layouts for language instruction.
+- Display three to four images together to provide context to unfamiliar words.
+- Check student engagement and understanding throughout class.
+- Issue corrections to generated slide mistakes without interrupting lecture flow.
+
+**Problems / Frustrations**
+- Current slide layouts did not appear capable of representing complex grammar subjects with sufficiently dense table layouts.
+- Images could match the correct category while still being the wrong image.
+- The application did not appear to support multiple images on a single slide.
+- Image previews were not apparent before an image was applied.
+- Verbally correcting a slide during lecture felt jarring and disrupted lecture flow.
+
+#### Malaysia — Instructor
+[Original interview notes](./interviews/instructor/interviewTwo.md)
+
+Malaysia is an English and Mathematics instructor for students with disabilities and non-native English learners at a large public high school. She was interested in live generation, the ability to veer off seeded material, storing prior lectures for reference, and translating lecture content between different languages.
+
+**Goals / Needs**
+- Seed projects with prepared materials prior to instruction.
+- Produce slides with correct visuals and complex visual layouts.
+- Veer off seeded material and still receive slide coverage.
+- Store prior lectures for reference later on.
+- Use prior lectures as seeding material.
+- Translate lectures between common foreign languages.
+- Focus on understanding student needs while the application records day-to-day teaching sessions.
+
+**Problems / Frustrations**
+- Inability to cleanly indicate generation problems during lecture flow.
+- Several smaller pieces of feedback were difficult to remember at the end of the presentation.
+- Incorrect image association during presentation.
+- Seeded images were sometimes cut off.
+- Exit ticket quizzes produced convoluted answer choices.
+- Delay between spoken transcript and slide generation.
+
+### Students
+
+#### Cathy — Student
+[Original interview notes](./interviews/student/interviewThree.md)
+
+Cathy previews slides before lecture as a primer, follows along during class while taking notes on additional details and context, and later uses lecture slides to review. She preferred a greater quantity of well-separated slides rather than fewer, denser slides.
+
+**Goals / Needs**
+- Preview slides before class as a primer.
+- Follow along with a presentation during class.
+- Record additional details and context provided by the professor.
+- Review slides later when preparing for tests.
+- See information separated across multiple readable slides.
+- Keep slides succinct without excessive content density.
+
+**Problems / Frustrations**
+- Accidentally skipped the seeding phase during first-time use.
+- Slides advanced when she did not want them to.
+- Image selection did not consistently match the intended subject.
+- The generated quiz emphasized material differently than she would have liked.
+- Application behavior during live generation occasionally felt outside of her control.
+
+#### Robert — Student
+[Original interview notes](./interviews/student/interviewFour.md)
+
+Robert is an art student. He wanted generated slides with multiple images, flexible layouts, relevant visuals, and different visual treatments depending on the active topic of discussion.
+
+**Goals / Needs**
+- Place multiple images together on a single slide.
+- Compare artwork and visual references side by side.
+- Use flexible layouts suited to art and design subjects.
+- Receive automatically generated visuals relevant to the current topic.
+- Use different visual treatments based on the nature of the current content.
+
+**Problems / Frustrations**
+- Current templates felt too restrictive for image-heavy presentations.
+- Automatically generated visuals did not consistently match the topic being discussed.
+- Incorrect visual selection reduced the accuracy of otherwise relevant slides.
+
+#### Bennie — Student
+[Original interview notes](./interviews/student/interviewFive.md)
+
+Bennie is a philosophy and environmental science major. He wanted a time-effective solution for lecture organization, wanted to avoid spending time on ancillary material, and wanted slides to contain the core content of a lecture.
+
+**Goals / Needs**
+- Organize lecture material efficiently.
+- Avoid spending time on ancillary or irrelevant material.
+- Ensure slides contain the core content of a lecture.
+- Find effective ways to visualize environmental systems.
+- Represent philosophy arguments clearly.
+- Curate and organize information before presenting.
+- Maintain a standardized visual style throughout the presentation.
+
+**Problems / Frustrations**
+- Creating and organizing presentation content manually is time-consuming.
+- Finding effective visualization tools for environmental systems and philosophy arguments is difficult.
+- Seeded images selected during live generation were consistently incorrect.
+- Slides were created during pauses, including unintentional ones.
+
+#### Owen — Student
+[Original interview notes](./interviews/student/interviewSix.md)
+
+Owen previews slides before class, follows along during lecture, and reviews them afterward when needed. He prefers to skim past material he already knows while noting important information and rewriting material in his own words.
+
+**Goals / Needs**
+- Preview slides once or twice before lecture as a primer.
+- Follow along with slides during class.
+- Review slides after class when review is needed.
+- Rewrite lecture material in his own words rather than reading passively.
+- Skim past already-familiar content and record only what is important.
+- Understand slide content before attempting practice questions.
+- Signal confusion to the professor during class without drawing attention to himself.
+- Annotate slides live from his own device.
+
+**Problems / Frustrations**
+- He probably would not tell a professor he was lost in a large lecture hall.
+- He had no way to signal confusion during a lecture while it was happening.
 
 ## Product Vision Statement
 
@@ -78,15 +202,74 @@ During a live lecture, The Slide Machine will allow instructors to Mark for Revi
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+### 1. Instructor: Mark for Review with the button or by voice
+#### User stories: 
+- "As an instructor, I want to Mark for Review the currently displayed slide with a button or keyboard shortcut so that I can indicate a problem without interrupting my lecture."
+- "As an instructor, I want to Mark for Review a slide using a voice command so that I can report an issue without stopping to interact with the interface."
+![AD 001 Instructor marks a slide for review](<./umlDiagrams/AD 001 Instructor marks a slide for review.png>)
+
+### 2. Instructor: send a marked slide to Refine and approve the correction
+#### User story:
+- "As an instructor, I want to send a marked issue into the existing Refine process so that The Slide Machine can generate a targeted correction for the affected slide."
+![AD 002 Instructor sends a marked slide to Refine.png](<./umlDiagrams/AD 002 Instructor sends a marked slide to Refine.png>)
+
+### Student: see that a slide is Marked for Review
+#### User story: 
+- "As a student, I want to see when an instructor has Marked a slide for Review so that I know the information may not yet be reliable."
+![AD 003 Student sees a slide is under review.png>](<./umlDiagrams/AD 003 Student sees a slide is under review.png>)
+
+### Student: see the corrected slide and what changed
+#### User story:
+- User story: "As a student, I want to see the corrected version of a slide after the instructor approves it so that I can study from accurate material."
+![AD 004 Student sees the corrected slide.png](<./umlDiagrams/AD 004 Student sees the corrected slide.png>)
 
 ## Wireframes
 
-See instructions. Delete this line and place your wireframe diagrams here, covering every new screen and every existing screen your proposal changes, for every type of user.
+### Instructor View
+
+#### 1. Before selecting Mark for Review
+![Before selecting Mark for Review](<./wireframes/instructorView/Before selecting Mark for Review.png>)
+
+#### 2. After selecting Mark for Review
+![After selecting Mark for Review](<./wireframes/instructorView/After selecting Mark for Review.png>)
+
+#### 3. Dismiss Slide for Marked for Review
+![Dismiss Slide for Marked for Review](<./wireframes/instructorView/Dismiss Slide for Marked for Review.png>)
+
+#### 4. Review Queue
+![Review Queue](<./wireframes/instructorView/Review Queue.png>)
+
+#### 5. Edit Note to send to Refine
+![Edit Note to send to Refine](<./wireframes/instructorView/Edit Note to send to Refine.png>)
+
+#### 6. Send to Refine Processing
+![Send to Refine Processing](<./wireframes/instructorView/Send to Refine Processing.png>)
+
+#### 7. Review Proposal
+![Review Proposal](<./wireframes/instructorView/Review Proposal.png>)
+
+### Student View
+
+#### 1. Student View of Slide
+![Student View of Slide](<./wireframes/studentView/Student View of Slide.png>)
+
+#### 2. Student View of Marked for Review slide
+![Student View of Marked for Review slide](<./wireframes/studentView/Student View of Marked for Review slide.png>)
+
+#### 3. Student View of Corrected Slide
+![Student View of Corrected Slide](<./wireframes/studentView/Student View of Corrected Slide.png>)
+
+#### 4. Version History Dropdown
+![Version History Dropdown](<./wireframes/studentView/Version History Dropdown.png>)
+
+#### 5. Version History Selection
+![Version History Selection](<./wireframes/studentView/Version History Selection.png>)
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+Instructor View Wireframe Prototype: https://www.figma.com/proto/VdXHXfxOzaTmmkdQLRD9ut/Instructer-View--Wireframe-Prototype?node-id=4-2&t=2FkYhtfsM8kC6uiG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2
+
+Student View Wireframe Prototype: https://www.figma.com/proto/kXoMryS5T3tKBMciCsy2uE/Student-View?node-id=0-1&p=f&t=IaTEqaCByzmNBk14-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&fuid=1686485839094840612
 
 ## Stakeholder Demo
 
@@ -94,4 +277,6 @@ See instructions. Delete this line and place a link to the deck The Slide Machin
 
 ## Exit Ticket
 
-See instructions. Delete this line and place a link to the exit-ticket quiz you generated from your demo deck and distributed to the class, along with a short note on what — if anything — you had to correct in the generated questions before publishing.
+Run 1 Exit Tick Quiz: https://docs.google.com/forms/d/e/1FAIpQLSefmjX7kMi9S9E9e_6mw_KOhL-OiJR29FS7vsGzhEw9R4PM7w/viewform
+
+Run 2 Exit Tick Quiz: https://docs.google.com/forms/d/e/1FAIpQLSfn3eRpHcD78CiMMT6xLL8Q3EbQPsOezGXlghc-lzksef2JCA/viewform
