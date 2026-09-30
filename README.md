@@ -305,16 +305,16 @@ During a live lecture, The Slide Machine will allow instructors to Mark for Revi
 
 ## Clickable Prototype
 
-Instructor View Wireframe Prototype: https://www.figma.com/proto/VdXHXfxOzaTmmkdQLRD9ut/Instructer-View--Wireframe-Prototype?node-id=4-2&t=2FkYhtfsM8kC6uiG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2
+[Instructor View Wireframe Prototype](https://www.figma.com/proto/VdXHXfxOzaTmmkdQLRD9ut/Instructer-View--Wireframe-Prototype?node-id=4-2&t=2FkYhtfsM8kC6uiG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2)
 
-Student View Wireframe Prototype: https://www.figma.com/proto/kXoMryS5T3tKBMciCsy2uE/Student-View?node-id=0-1&p=f&t=IaTEqaCByzmNBk14-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&fuid=1686485839094840612
+[Student View Wireframe Prototype](https://www.figma.com/proto/kXoMryS5T3tKBMciCsy2uE/Student-View?node-id=0-1&p=f&t=IaTEqaCByzmNBk14-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&fuid=1686485839094840612)
 
 ## Stakeholder Demo
 
-Slide Machine Demo Deck: https://drive.google.com/file/d/1OF7LBf21OnhgwkAmaVKuHmkQdlO2MTQm/view?usp=drive_link
+[Slide Machine Demo Deck](https://drive.google.com/file/d/1OF7LBf21OnhgwkAmaVKuHmkQdlO2MTQm/view?usp=drive_link)
 
-Recorded Live Demo: https://drive.google.com/file/d/1a7tnOaE5sRJupYUTfTKHXXxaNOn8pwxm/view?usp=drive_link
+[Recorded Live Demo](https://drive.google.com/file/d/1a7tnOaE5sRJupYUTfTKHXXxaNOn8pwxm/view?usp=drive_link)
 
 ## Exit Ticket
 
-Exit Ticket Quiz: https://docs.google.com/forms/d/e/1FAIpQLSfn3eRpHcD78CiMMT6xLL8Q3EbQPsOezGXlghc-lzksef2JCA/viewform
+[Exit Ticket Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfn3eRpHcD78CiMMT6xLL8Q3EbQPsOezGXlghc-lzksef2JCA/viewform)
