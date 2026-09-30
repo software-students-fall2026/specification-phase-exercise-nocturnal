@@ -145,7 +145,9 @@ During a live lecture, The Slide Machine will allow instructors to Mark for Revi
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+Instructor View Wireframe Prototype: https://www.figma.com/proto/VdXHXfxOzaTmmkdQLRD9ut/Instructer-View--Wireframe-Prototype?node-id=4-2&t=2FkYhtfsM8kC6uiG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2
+
+Student View Wireframe Prototype: https://www.figma.com/proto/kXoMryS5T3tKBMciCsy2uE/Student-View?node-id=0-1&p=f&t=IaTEqaCByzmNBk14-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&fuid=1686485839094840612
 
 ## Stakeholder Demo
 
@@ -153,4 +155,6 @@ See instructions. Delete this line and place a link to the deck The Slide Machin
 
 ## Exit Ticket
 
-See instructions. Delete this line and place a link to the exit-ticket quiz you generated from your demo deck and distributed to the class, along with a short note on what — if anything — you had to correct in the generated questions before publishing.
+Run 1 Exit Tick Quiz: https://docs.google.com/forms/d/e/1FAIpQLSefmjX7kMi9S9E9e_6mw_KOhL-OiJR29FS7vsGzhEw9R4PM7w/viewform
+
+Run 2 Exit Tick Quiz: https://docs.google.com/forms/d/e/1FAIpQLSfn3eRpHcD78CiMMT6xLL8Q3EbQPsOezGXlghc-lzksef2JCA/viewform
