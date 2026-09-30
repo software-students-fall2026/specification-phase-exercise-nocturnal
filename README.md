@@ -80,7 +80,26 @@ During a live lecture, The Slide Machine will allow instructors to Mark for Revi
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+### 1. Instructor: Mark for Review with the button or by voice
+#### User stories: 
+- "As an instructor, I want to Mark for Review the currently displayed slide with a button or keyboard shortcut so that I can indicate a problem without interrupting my lecture."
+- "As an instructor, I want to Mark for Review a slide using a voice command so that I can report an issue without stopping to interact with the interface."
+![AD 001 Instructor marks a slide for review](<./umlDiagrams/AD 001 Instructor marks a slide for review.png>)
+
+### 2. Instructor: send a marked slide to Refine and approve the correction
+#### User story:
+- "As an instructor, I want to send a marked issue into the existing Refine process so that The Slide Machine can generate a targeted correction for the affected slide."
+![AD 002 Instructor sends a marked slide to Refine.png](<./umlDiagrams/AD 002 Instructor sends a marked slide to Refine.png>)
+
+### Student: see that a slide is Marked for Review
+#### User story: 
+- "As a student, I want to see when an instructor has Marked a slide for Review so that I know the information may not yet be reliable."
+![AD 003 Student sees a slide is under review.png>](<./umlDiagrams/AD 003 Student sees a slide is under review.png>)
+
+### Student: see the corrected slide and what changed
+#### User story:
+- User story: "As a student, I want to see the corrected version of a slide after the instructor approves it so that I can study from accurate material."
+![AD 004 Student sees the corrected slide.png](<./umlDiagrams/AD 004 Student sees the corrected slide.png>)
 
 ## Wireframes
 
