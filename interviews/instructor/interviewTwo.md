@@ -1,0 +1,12 @@
+Rishi Ajoykumar conducted an open interview with Malaysia. Malaysia is an English and Mathematics instructor for students with disabilities and non-native English learners at a large, public high school. Rishi felt Malaysia would be an interesting candidate as prior conversations with her revealed her biggest constraint to be production. Oftentimes, Malaysia takes a catered approach to each student in order to best serve their unique background. However, through the years, students with similar backgrounds presented themselves and Malaysia has sought better systems to organize past material and translate lecture content between different languages. When told about Slide Machine, Malaysia was particularly interested in its ability to generate live as one spoke. She had concerns given her needs for mathematical notation, however, she was impressed by her ability to veer off seeded material and still receive slide coverage. She was even more impressed with exit ticket quizzes and used the generation as a rough draft for a comprehension quiz. To her, a tool like “The Slide Machine” allowed her to record day-to-day teaching sessions for reference later on and focus on understanding her student’s needs. However, Malaysia’s biggest gripe with the process was her inability to capture feedback on inaccuracies with the slides. She tried the presentation flow for approximately 12 minutes and told Rishi afterwards there were several smaller pieces of feedback she wanted to go back and fix but could not quite remember at the end. She seeded her deck with several dozen images and image references were not always optimal and sometimes were cut off. Overall, Malaysia was very impressed by “The Slide Machine” and with some quality improvements felt she could use it in her teaching arsenal. 
+
+Goals / Needs:
+- Seed projects with prepared materials prior to instruction.
+- Produce slides with correct visuals and complex visual layouts. 
+- Ability to store prior lectures, use prior lectures as seeding material, and translate lectures between common foreign languages. 
+
+Problems / Frustrations:
+- Inability to cleanly indicate generation problems during lecture flow. 
+- Incorrect image association during presentation.
+- Exit ticket quizzes produced convoluted answer choices. 
+- Delay between spoken transcript and slide generation → specifically entire slides being produced as opposed to partially populated as you speak. 
