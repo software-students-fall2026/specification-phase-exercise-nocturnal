@@ -33,7 +33,9 @@ A little exercise to get started with the specification phase of the software de
 
 ## Prior Art & Originality
 
-See instructions. Delete this line and replace with a short statement of what your team checked (the project's Future Work and Open Questions, its roadmap, and its open issues and pull requests) and which parts of your proposal are original — new work not already specified, scheduled, or proposed by someone else.
+We inspected “The Slide Machine” GitHub repository beginning with SPEC.md. Our focus was on goals and non-goals, live lecture capture, voice commands, slide generation, post-lecture refinement, editing, future work, and open questions. We also investigated ROADMAP.md, DECISIONS.md, and ACTIONS.md. Finally, we glanced over deck.ts, slide.ts, voice-commands.ts, and commands.ts as these code files are relevant to our proposal. 
+
+Based on this review, our proposed "Mark for Review" workflow is not currently implemented, specified as future work, or recorded as a previously dismissed feature. Our plan extends Slide Machine's existing Refine process and voice-command system. Correction indicators in lecture, recording feedback without immediately changing the projected/current slide, carrying the feedback into Refine, and the associated "Live Correction Queue", review, and correction-history views would be new to the current Slide Machine repository.
 
 ## Stakeholders
 
