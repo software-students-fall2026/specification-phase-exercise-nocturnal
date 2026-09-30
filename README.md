@@ -39,7 +39,129 @@ Based on this review, our proposed "Mark for Review" workflow is not currently i
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+All stakeholder names below are pseudonyms. Original interview notes are linked for each stakeholder.
+
+### Instructors
+
+#### Brooke — Instructor
+[Original interview notes](./interviews/instructor/interviewOne.md)
+
+Brooke is a graduate student and instructor of *Intensive Intermediate Italian*. She was interested in document seeding, preparation of seeded content before lecture, exit ticket quizzes throughout class, and whether live slide generation could represent intricate grammar concepts and exceptions.
+
+**Goals / Needs**
+- Seed projects with documents and prepare content before a lecture.
+- Present intricate grammar concepts and exceptions clearly.
+- Use tables and structured layouts for language instruction.
+- Display three to four images together to provide context to unfamiliar words.
+- Check student engagement and understanding throughout class.
+- Issue corrections to generated slide mistakes without interrupting lecture flow.
+
+**Problems / Frustrations**
+- Current slide layouts did not appear capable of representing complex grammar subjects with sufficiently dense table layouts.
+- Images could match the correct category while still being the wrong image.
+- The application did not appear to support multiple images on a single slide.
+- Image previews were not apparent before an image was applied.
+- Verbally correcting a slide during lecture felt jarring and disrupted lecture flow.
+
+#### Malaysia — Instructor
+[Original interview notes](./interviews/instructor/interviewTwo.md)
+
+Malaysia is an English and Mathematics instructor for students with disabilities and non-native English learners at a large public high school. She was interested in live generation, the ability to veer off seeded material, storing prior lectures for reference, and translating lecture content between different languages.
+
+**Goals / Needs**
+- Seed projects with prepared materials prior to instruction.
+- Produce slides with correct visuals and complex visual layouts.
+- Veer off seeded material and still receive slide coverage.
+- Store prior lectures for reference later on.
+- Use prior lectures as seeding material.
+- Translate lectures between common foreign languages.
+- Focus on understanding student needs while the application records day-to-day teaching sessions.
+
+**Problems / Frustrations**
+- Inability to cleanly indicate generation problems during lecture flow.
+- Several smaller pieces of feedback were difficult to remember at the end of the presentation.
+- Incorrect image association during presentation.
+- Seeded images were sometimes cut off.
+- Exit ticket quizzes produced convoluted answer choices.
+- Delay between spoken transcript and slide generation.
+
+### Students
+
+#### Cathy — Student
+[Original interview notes](./interviews/student/interviewThree.md)
+
+Cathy previews slides before lecture as a primer, follows along during class while taking notes on additional details and context, and later uses lecture slides to review. She preferred a greater quantity of well-separated slides rather than fewer, denser slides.
+
+**Goals / Needs**
+- Preview slides before class as a primer.
+- Follow along with a presentation during class.
+- Record additional details and context provided by the professor.
+- Review slides later when preparing for tests.
+- See information separated across multiple readable slides.
+- Keep slides succinct without excessive content density.
+
+**Problems / Frustrations**
+- Accidentally skipped the seeding phase during first-time use.
+- Slides advanced when she did not want them to.
+- Image selection did not consistently match the intended subject.
+- The generated quiz emphasized material differently than she would have liked.
+- Application behavior during live generation occasionally felt outside of her control.
+
+#### Robert — Student
+[Original interview notes](./interviews/student/interviewFour.md)
+
+Robert is an art student. He wanted generated slides with multiple images, flexible layouts, relevant visuals, and different visual treatments depending on the active topic of discussion.
+
+**Goals / Needs**
+- Place multiple images together on a single slide.
+- Compare artwork and visual references side by side.
+- Use flexible layouts suited to art and design subjects.
+- Receive automatically generated visuals relevant to the current topic.
+- Use different visual treatments based on the nature of the current content.
+
+**Problems / Frustrations**
+- Current templates felt too restrictive for image-heavy presentations.
+- Automatically generated visuals did not consistently match the topic being discussed.
+- Incorrect visual selection reduced the accuracy of otherwise relevant slides.
+
+#### Bennie — Student
+[Original interview notes](./interviews/student/interviewFive.md)
+
+Bennie is a philosophy and environmental science major. He wanted a time-effective solution for lecture organization, wanted to avoid spending time on ancillary material, and wanted slides to contain the core content of a lecture.
+
+**Goals / Needs**
+- Organize lecture material efficiently.
+- Avoid spending time on ancillary or irrelevant material.
+- Ensure slides contain the core content of a lecture.
+- Find effective ways to visualize environmental systems.
+- Represent philosophy arguments clearly.
+- Curate and organize information before presenting.
+- Maintain a standardized visual style throughout the presentation.
+
+**Problems / Frustrations**
+- Creating and organizing presentation content manually is time-consuming.
+- Finding effective visualization tools for environmental systems and philosophy arguments is difficult.
+- Seeded images selected during live generation were consistently incorrect.
+- Slides were created during pauses, including unintentional ones.
+
+#### Owen — Student
+[Original interview notes](./interviews/student/interviewSix.md)
+
+Owen previews slides before class, follows along during lecture, and reviews them afterward when needed. He prefers to skim past material he already knows while noting important information and rewriting material in his own words.
+
+**Goals / Needs**
+- Preview slides once or twice before lecture as a primer.
+- Follow along with slides during class.
+- Review slides after class when review is needed.
+- Rewrite lecture material in his own words rather than reading passively.
+- Skim past already-familiar content and record only what is important.
+- Understand slide content before attempting practice questions.
+- Signal confusion to the professor during class without drawing attention to himself.
+- Annotate slides live from his own device.
+
+**Problems / Frustrations**
+- He probably would not tell a professor he was lost in a large lecture hall.
+- He had no way to signal confusion during a lecture while it was happening.
 
 ## Product Vision Statement
 
